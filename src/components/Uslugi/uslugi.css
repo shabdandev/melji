@@ -1,0 +1,63 @@
+.texttt {
+  h3 {
+    margin-top: -60px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    span {
+      font-weight: 900;
+      margin-right: 7px;
+    }
+  }
+}
+
+.img1 {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.texp {
+  position: absolute;
+  top: 234px;
+  right: 88px;
+  h1 {
+    color: red;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 28px;
+  }
+}
+
+.card_c {
+  width: 255px;
+  height: 170px;
+  border-radius: 20px;
+  background: rgba(255, 166, 0, 0.71);
+}
+
+.cards {
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px 0;
+}
+
+.P {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    letter-spacing: 0.8px;
+    font-weight: bold;
+    font-size: 27px;
+    padding-bottom: 20px;
+  }
+}

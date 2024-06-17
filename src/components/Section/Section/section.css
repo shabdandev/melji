@@ -1,0 +1,132 @@
+.section {
+  padding: 20px 0;
+  margin-top: -90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    span {
+      font-weight: 900;
+      margin-right: 7px;
+    }
+  }
+}
+
+.img1 {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_p {
+  padding-top: 15px;
+  width: 300px;
+  text-align: center;
+  font-size: 18.7px;
+}
+
+.clothes {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  .block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.clothes_n {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h3 {
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+  }
+  h5 {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+  }
+}
+
+.clothesed {
+  /* width: 350px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  .block {
+    text-align: center;
+  }
+}
+
+.clothesed_n h3 {
+  font-size: 18px;
+  padding: 18px 0;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.last_img img {
+  width: 360px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.last {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h3 {
+    font-size: 21px;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+}
+
+.last_section h3 {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.ht {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.acc {
+  h3 {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+}
