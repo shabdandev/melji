@@ -75,7 +75,12 @@ const SectionLast = () => {
             color="success"
             endIcon={<InstagramIcon />}
           >
-            INSTAGRAM
+            <a
+              style={{ color: "white", letterSpacing: "2px" }}
+              href="https://www.instagram.com/_shabdan.01/"
+            >
+              INSTAGRAM
+            </a>
           </Button>
           <Button
             sx={{

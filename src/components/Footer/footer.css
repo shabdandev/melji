@@ -17,6 +17,8 @@
 
 .tag {
   padding-top: 13px;
+  display: flex;
+  flex-direction: column;
 }
 
 .addres {
