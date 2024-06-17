@@ -79,6 +79,7 @@ function Header(props) {
             background: "none",
             color: "#000",
             boxShadow: "none",
+            paddingTop: "20px",
           }}
         >
           <Toolbar>
@@ -89,8 +90,8 @@ function Header(props) {
               sx={{
                 display: "flex",
                 alignItems: "center",
-                background: "black",
-                color: "#fff",
+                background: "yellow",
+                color: "#000",
                 width: "50px",
                 height: "50px",
               }}
