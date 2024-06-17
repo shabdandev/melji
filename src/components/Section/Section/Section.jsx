@@ -11,7 +11,7 @@ const Section = () => {
         <div className="img1">
           <img
             style={{ objectFit: "cover" }}
-            width={360}
+            width={350}
             height={130}
             src="https://primamedia.ru/f/big/931/930890.jpg"
             alt="img1"
