@@ -86,11 +86,17 @@ function Header(props) {
               color="inherit"
               aria-label="open drawer"
               onClick={handleDrawerToggle}
-              sx={{ display: "flex", alignItems: "center" }}
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                background: "black",
+                color: "#fff",
+                width: "50px",
+                height: "50px",
+              }}
             >
-              <MenuIcon sx={{ fontSize: "50px", margin: "30px 0 0 5px" }} />
+              <MenuIcon sx={{ fontSize: "33px" }} />
             </IconButton>
-
             <Box
               sx={{
                 display: { xs: "none", sm: "block" },
