@@ -38,12 +38,12 @@
 
 .texpp {
   position: absolute;
-  top: 232px;
+  top: 237px;
   right: 75px;
   h1 {
     color: red;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
