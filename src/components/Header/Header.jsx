@@ -100,7 +100,7 @@ function Header(props) {
                 height: "50px",
               }}
             >
-              <MenuIcon sx={{ fontSize: "33px" }} />
+              <MenuIcon sx={{ fontSize: "32px" }} />
             </IconButton>
             <Box
               sx={{
