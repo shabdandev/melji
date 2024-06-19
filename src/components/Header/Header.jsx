@@ -34,18 +34,22 @@ function Header(props) {
         <ListItem
           sx={{
             display: "flex",
-            alignItems: "center",
+            alignItems: "start",
             justifyContent: "flex-start",
             flexDirection: "column",
             gap: "20px",
             fontSize: "19px",
-            color: "#000",
+            color: "black",
           }}
         >
           <NavLink to="/">Главная</NavLink>
+          <hr style={{ width: "200px" }} />
           <NavLink to="/catalog">Каталог</NavLink>
+          <hr style={{ width: "200px" }} />
           <NavLink to="/uslugi">Наши услуги</NavLink>
+          <hr style={{ width: "200px" }} />
           <NavLink to="/dostavka">Оплата и доставка</NavLink>
+          <hr style={{ width: "200px" }} />
           <NavLink to="/contact">Контакты</NavLink>
         </ListItem>
       </List>

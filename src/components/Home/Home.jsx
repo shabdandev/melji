@@ -70,28 +70,6 @@ const Home = () => {
     },
   ];
 
-  const images2 = [
-    {
-      imgPath:
-        "https://elema.by/upload/resize_cache/iblock/e41/6fm83y13tuis0x9gzsw3uma8p16dvh0e/500_750_1/Plate-zhenskoe-5K_1209-siniy-print-_1_.jpg",
-    },
-    {
-      imgPath:
-        "https://www.snik.co/system/products/items/images/039/776/408/small/plate-ermanno-firenze?1688376368",
-    },
-    {
-      imgPath:
-        "https://www.sashakim.com/upload/resize_cache/iblock/067/370_453_2/9srh632u42qizg1cq9cu8uqgqp3dvfwf.jpg",
-    },
-    {
-      imgPath:
-        "https://ae04.alicdn.com/kf/S5631dd067f3d44b394cb39d94217602d5.jpg",
-    },
-    {
-      imgPath:
-        "https://cdn1.gum.ru/upload/iblock/678/4d63d349e3b03b83276b9519c6c7c65c.jpg",
-    },
-  ];
   const images3 = [
     {
       imgPath:
@@ -166,19 +144,7 @@ const Home = () => {
             ))}
           </Slider>
         </div>
-        <div className="slidd">
-          <Slider {...settings}>
-            {images2.map((el, id) => (
-              <div className="" key={id}>
-                <img
-                  style={{ width: "350px", height: "460px" }}
-                  src={el.imgPath}
-                  alt={`slide ${id}`}
-                />
-              </div>
-            ))}
-          </Slider>
-        </div>
+
         <div className="slidd">
           <Slider {...settings}>
             {images3.map((el, id) => (

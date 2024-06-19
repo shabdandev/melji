@@ -19,6 +19,10 @@
   padding-top: 13px;
   display: flex;
   flex-direction: column;
+  gap: 15px;
+  button {
+    background: none;
+  }
 }
 
 .addres {
@@ -42,4 +46,14 @@
   align-items: start;
   justify-content: center;
   flex-direction: column;
+}
+
+.btnn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  a {
+    background: none;
+    font-size: 18px;
+  }
 }

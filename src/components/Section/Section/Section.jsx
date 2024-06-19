@@ -5,23 +5,21 @@ const Section = () => {
   return (
     <div className="container">
       <div className="section">
-        <h3>
-          <span>MELGI</span> ШВЕЙНАЯ ФАБРИКА
-        </h3>
+        <h3>ШВЕЙНЫЙ ДИЗАЙН</h3>
         <div className="img1">
           <img
             style={{ objectFit: "cover" }}
             width={350}
             height={130}
-            src="https://primamedia.ru/f/big/931/930890.jpg"
+            src="https://img.freepik.com/premium-photo/fashion-designer-creates-clothes-and-develops-future-wear-collection-in-d-modeling-program-male_662214-382046.jpg"
             alt="img1"
           />
         </div>
         <div className="section_p">
           <p>
-            Швейная фабрика <span>Melji</span> специализируется на пошиве
-            женской одежды второго слоя. Мы производим продукцию "под ключ" с
-            отправкой во все страны СНГ.
+            Швейный дизайн специализируется на пошиве женской одежды второго
+            слоя. Мы производим продукцию "под ключ" с отправкой во все страны
+            СНГ.
           </p>
         </div>
       </div>

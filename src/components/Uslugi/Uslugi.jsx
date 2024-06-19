@@ -8,9 +8,7 @@ const Uslugi = () => {
       <div className="container">
         <div className="uslugi">
           <div className="texttt">
-            <h3>
-              <span>MELGI</span> ШВЕЙНАЯ ФАБРИКА
-            </h3>
+            <h3>ШВЕЙНЫЙ ДИЗАЙН</h3>
           </div>
           <div className="img1">
             <img

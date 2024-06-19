@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import { Button } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import AddIcCallIcon from "@mui/icons-material/AddIcCall";
 
 const Footer = () => {
   return (
@@ -13,8 +14,22 @@ const Footer = () => {
             сотрудничества с нами.
           </h3>
           <div className="tag">
-            <a href="tel:+996708171232">+996708171232</a>
-            <a href="tel:+996708171232">+996708171232</a>
+            <div className="btnn">
+              <button>
+                <AddIcCallIcon />
+              </button>
+              <a style={{ color: "black" }} href="tel:+996500661260">
+                0500661260
+              </a>
+            </div>
+            <div className="btnn">
+              <button style={{ color: "black" }}>
+                <AddIcCallIcon />
+              </button>
+              <a style={{ color: "black" }} href="tel:+996500661260">
+                0500661260
+              </a>
+            </div>
           </div>
           <div className="wh">
             <Button
@@ -33,7 +48,7 @@ const Footer = () => {
                   letterSpacing: "2px",
                   fontWeight: "bold",
                 }}
-                href="https://wa.me/+996708171232"
+                href="https://wa.me/+996500661260"
               >
                 WHATSAPP
               </a>
