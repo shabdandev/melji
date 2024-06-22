@@ -32,7 +32,7 @@ const Clothesed = () => {
           <img
             width={125}
             height={120}
-            src="https://cdn.maxfishing.ru/upload/iblock/04b/mpkjbwjb64z6nu83ybit1un3fsqpo7n2.png"
+            src="https://images.prom.ua/4728705316_w640_h640_longsliv-takticheskij-universalnyj.jpg"
             alt="cl2"
           />
           <h6>Лонгслив</h6>
