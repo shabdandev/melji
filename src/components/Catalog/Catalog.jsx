@@ -18,27 +18,26 @@ const Catalog = () => {
   const images = [
     {
       imgPath:
-        "https://4kraski.ru/assets/images/products/31139/14101.99-4-1000x1000.jpg",
+        "https://4kraski.ru/assets/images/products/29966/8fed8f14240caec958cd8801c7ba7d0a.png",
     },
     {
       imgPath:
-        "https://way4you.ua/img/product/96/96455c3c724b8a9f115389488ed646ee/takticheskoe-hudi-tolstovka-kombat-uk-recon-hoodie-l-original-95-4.webp",
+        "https://shop.navi.gg/files/resized/products/navi40884.650x622.png",
     },
     {
       imgPath:
-        "https://static.cdek.shopping/images/shopping/af8e74b1f1f446349f3d67ac36d0f6b0.jpg",
+        "https://www.stan.su/upload/resize_cache/iblock/c98/700_700_140cd750bba9870f18aada2478b24840a/c98eb419bd393b8aa01062896028babc.png",
+    },
+    {
+      imgPath: "https://www.stan.su/upload/iblock/045/17_20-_1_.png",
     },
     {
       imgPath:
-        "https://spinningline.kz/images/products_photo_providers/00257000/00257644/00257644_35675_LARGE.jpg",
+        "https://www.silvermedia.ru/upload/iblock/d33/c0e021r9wpesgi9rdnzbb4ongsgttnik/b661b24b_052c_11ee_93d4_a8a159b707f3_b661b24c_052c_11ee_93d4_a8a159b707f3.resize2.png",
     },
     {
       imgPath:
-        "https://kkaravaev.com/wa-data/public/shop/products/60/39/13960/images/25469/25469.970.JPG",
-    },
-    {
-      imgPath:
-        "https://way4you.ua/img/product/96/96455c3c724b8a9f115389488ed646ee/takticheskoe-hudi-tolstovka-kombat-uk-recon-hoodie-l-original-95-4.webp",
+        "https://giftprime.ru/wp-content/uploads/2023/06/f8499982c409e4371e12d2021747de9d.png",
     },
   ];
 
@@ -49,19 +48,19 @@ const Catalog = () => {
     },
     {
       imgPath:
-        "https://media.kameron.ua/images/ed/43/a35b655804e4b3996bd8086e5b92.jpg",
+        "https://www.stan.su/upload/iblock/313/31347f3a2c6459719dc8c5ed78279f5e.png",
     },
     {
       imgPath:
-        "https://www.stan.su/upload/resize_cache/iblock/f2c/700_700_140cd750bba9870f18aada2478b24840a/f2c962dc29143880bf0266b55eb02917.png",
+        "https://www.50kopeek.kiev.ua/upload/xt/go/xtgoyu35qe-ppn6r11gal1m_hpz-dsys.png",
     },
     {
       imgPath:
-        "https://sport-marafon.ru/upload/files/iblock/elements/900ae28f-3c83-11e3-9fdc-e83935202582/5abbbc79-f73d-11ee-85dc-b42e99c9b482/5abbbc79f73d11ee85dcb42e99c9b482_5b502b3c130b11ef85dcb42e99c9b482.png",
+        "https://www.stan.su/upload/iblock/ac2/ac21c0d75a2b6f70b7365a2110cc0a9c.png",
     },
     {
       imgPath:
-        "https://goods-photos.static1-sima-land.com/items/4301029/0/700-nw.jpg",
+        "https://files.toomanygifts.ru/images/media/cache/product_medium/product_image/5dbc/62e1abe63d4a5403995313.png",
     },
   ];
 
@@ -87,22 +86,38 @@ const Catalog = () => {
   const images4 = [
     {
       imgPath:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNRlgR-eYZGynfwBHkjXAS2VWtsIVIL3_lDz_SVqN3GwAkBoJ0ChFsO1_ZdMD44w1AKOs&usqp=CAU",
+        "https://fridaywear.ru/upload/resize_cache/webp/iblock/6e6/lam8wmjy0xpmbc6joo4iqong0o4c8ukl.webp",
     },
     {
       imgPath:
-        "https://krisstel.ua/image/cache/catalog/a-fw2022-2023/sisley-414x591.jpg",
+        "https://voentorg.ua/image/cache/catalog/newproducts/58c756d3-6e82-11e6-8134-74d4358b53e8-700x700.png",
+    },
+    {
+      imgPath:
+        "https://fridaywear.ru/upload/resize_cache/webp/iblock/04a/g07gpzct27dhoumhr0cpv19sp1j05rjg.webp",
+    },
+    {
+      imgPath:
+        "https://beastyle.com.ua/content/images/27/480x480l50nn0/52125971069456.png",
     },
   ];
 
   const images5 = [
     {
       imgPath:
-        "https://fridaywear.ru/upload/resize_cache/webp/iblock/b86/b864d54b71a39795940fdd1af6bf3965.webp",
+        "https://fridaywear.ru/upload/resize_cache/webp/iblock/04a/g07gpzct27dhoumhr0cpv19sp1j05rjg.webp",
     },
     {
       imgPath:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBb2W5HzzGEQKwf08LrpSu7zA8E9DECrKnmA&s",
+        "https://fridaywear.ru/upload/resize_cache/webp/iblock/83c/wh1mnhefootodbxj1x74lb8tjchnm2xd.webp",
+    },
+    {
+      imgPath:
+        "https://www.stimma.com.ua/upload/resize_cache/iblock/b3a/530_780_1/crvw2pjv01q8sanrft76h7nf3lazfnpt.png",
+    },
+    {
+      imgPath:
+        "https://fridaywear.ru/upload/resize_cache/webp/iblock/14b/5puktxofgaxqca4mqdhrnt7crgdwau92.webp",
     },
   ];
 
@@ -128,6 +143,19 @@ const Catalog = () => {
       <div className="slider">
         <div className="slidd">
           <Slider {...settings}>
+            {images3.map((el, id) => (
+              <div className="" key={id}>
+                <img
+                  style={{ width: "390px", height: "400px" }}
+                  src={el.imgPath}
+                  alt={`slide ${id}`}
+                />
+              </div>
+            ))}
+          </Slider>
+        </div>
+        <div className="slidd">
+          <Slider {...settings}>
             {images.map((el, id) => (
               <div className="" key={id}>
                 <img
@@ -144,20 +172,11 @@ const Catalog = () => {
             {images1.map((el, id) => (
               <div className="" key={id}>
                 <img
-                  style={{ width: "390px", height: "370px" }}
-                  src={el.imgPath}
-                  alt={`slide ${id}`}
-                />
-              </div>
-            ))}
-          </Slider>
-        </div>
-        <div className="slidd">
-          <Slider {...settings}>
-            {images3.map((el, id) => (
-              <div className="" key={id}>
-                <img
-                  style={{ width: "390px", height: "400px" }}
+                  style={{
+                    width: "360px",
+                    height: "370px",
+                    objectFit: "fill",
+                  }}
                   src={el.imgPath}
                   alt={`slide ${id}`}
                 />
@@ -183,7 +202,7 @@ const Catalog = () => {
             {images5.map((el, id) => (
               <div className="" key={id}>
                 <img
-                  style={{ width: "390px", height: "400px" }}
+                  style={{ width: "350px", height: "400px" }}
                   src={el.imgPath}
                   alt={`slide ${id}`}
                 />
