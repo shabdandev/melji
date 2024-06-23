@@ -6,6 +6,7 @@ const Section = () => {
     <div className="container">
       <div className="section">
         <h3>ШВЕЙНЫЙ ДИЗАЙН</h3>
+        <h4>ШВЕЙНАЯ ФАБРИКА</h4>
         <div className="img1">
           <img
             style={{ objectFit: "cover" }}

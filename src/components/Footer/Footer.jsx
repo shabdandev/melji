@@ -48,7 +48,7 @@ const Footer = () => {
                   letterSpacing: "2px",
                   fontWeight: "bold",
                 }}
-                href="https://wa.me/+996500661260"
+                href="https://wa.me/+996999317517"
               >
                 WHATSAPP
               </a>
