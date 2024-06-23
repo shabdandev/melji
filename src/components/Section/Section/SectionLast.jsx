@@ -59,7 +59,7 @@ const SectionLast = () => {
           >
             <a
               style={{ color: "white", letterSpacing: "2px" }}
-              href="https://t.me/+996500661260"
+              href="https://t.me/+996999317517"
             >
               TELEGRAM
             </a>
@@ -77,7 +77,7 @@ const SectionLast = () => {
           >
             <a
               style={{ color: "white", letterSpacing: "2px" }}
-              href="https://www.instagram.com/_shabdan.01/"
+              href="https://www.instagram.com/cross01kg/"
             >
               INSTAGRAM
             </a>
@@ -97,7 +97,7 @@ const SectionLast = () => {
                 letterSpacing: "2px",
                 fontWeight: "bold",
               }}
-              href="https://wa.me/+996500661260"
+              href="https://wa.me/+996999317517"
             >
               WHATSAPP
             </a>

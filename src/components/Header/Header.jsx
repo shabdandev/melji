@@ -68,14 +68,17 @@ function Header(props) {
           alignItems: "center",
           justifyContent: "center",
           paddingTop: "20px",
+          fontSize: "35px",
+          fontWeight: 200,
         }}
       >
-        <img
+        {/* <img
           style={{ objectFit: "cover" }}
           width={170}
           src="https://freelance.ru/img/portfolio/pics/00/40/1E/4202078.jpg"
           alt="img"
-        />
+        /> */}
+        <p>SH/D</p>
       </Box>
       <Box sx={{ display: "flex" }}>
         <CssBaseline />
@@ -95,8 +98,8 @@ function Header(props) {
               sx={{
                 display: "flex",
                 alignItems: "center",
-                background: "yellow",
-                color: "#000",
+                background: "gray",
+                color: "#fff",
                 width: "50px",
                 height: "50px",
               }}
