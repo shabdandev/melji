@@ -31,10 +31,10 @@ const Catalog = () => {
     {
       imgPath: "https://www.stan.su/upload/iblock/045/17_20-_1_.png",
     },
-    {
-      imgPath:
-        "https://www.silvermedia.ru/upload/iblock/d33/c0e021r9wpesgi9rdnzbb4ongsgttnik/b661b24b_052c_11ee_93d4_a8a159b707f3_b661b24c_052c_11ee_93d4_a8a159b707f3.resize2.png",
-    },
+    // {
+    //   imgPath:
+    //     "https://i.pinimg.com/564x/e0/35/a9/e035a957ca0be88020f1ac43fdac2515.jpg",
+    // },
     {
       imgPath:
         "https://giftprime.ru/wp-content/uploads/2023/06/f8499982c409e4371e12d2021747de9d.png",

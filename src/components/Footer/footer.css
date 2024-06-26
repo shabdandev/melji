@@ -46,6 +46,14 @@
   align-items: start;
   justify-content: center;
   flex-direction: column;
+  h3 {
+    font-weight: bold;
+    font-size: 27px;
+  }
+  a {
+    font-size: 22px;
+    font-weight: 100;
+  }
 }
 
 .btnn {

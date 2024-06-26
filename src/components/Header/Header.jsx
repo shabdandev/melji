@@ -13,7 +13,8 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { NavLink } from "react-router-dom";
-import { logo } from "../../components/image/швейный дизайн.png";
+import lego from "../../components/image/headerlogo.jpg";
+import logo from "../../components/image/header.jpg";
 
 const drawerWidth = 240;
 
@@ -27,16 +28,14 @@ function Header(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 1 }}>
-        MUI
-      </Typography>
       <Divider />
-      <List>
+      <List sx={{ marginTop: "50px" }}>
         <ListItem
           sx={{
+            width: "100%",
             display: "flex",
-            alignItems: "start",
-            justifyContent: "flex-start",
+            alignItems: "flex-start",
+            justifyContent: "start",
             flexDirection: "column",
             gap: "20px",
             fontSize: "19px",
@@ -67,18 +66,18 @@ function Header(props) {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          paddingTop: "20px",
+          marginTop: "-20px",
           fontSize: "35px",
           fontWeight: 200,
         }}
       >
-        {/* <img
-          style={{ objectFit: "cover" }}
-          width={170}
-          src="https://freelance.ru/img/portfolio/pics/00/40/1E/4202078.jpg"
+        <img
+          style={{ objectFit: "cover", background: "none" }}
+          width={270}
+          // height={100}
+          src={lego}
           alt="img"
-        /> */}
-        <p>SH/D</p>
+        />
       </Box>
       <Box sx={{ display: "flex" }}>
         <CssBaseline />
@@ -97,7 +96,8 @@ function Header(props) {
               onClick={handleDrawerToggle}
               sx={{
                 display: "flex",
-                alignItems: "center",
+                alignItems: "flex-end",
+                justifyContent: "flex-end",
                 background: "gray",
                 color: "#fff",
                 width: "50px",

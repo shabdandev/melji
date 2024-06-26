@@ -58,7 +58,7 @@ const Footer = () => {
       </div>
       <div className="addres">
         <h3>Наш адрес:</h3>
-        <a href="">г.Бишкек ул.Ч.Айтматова 59</a>
+        <a href="">г.Бишкек</a>
       </div>
     </div>
   );
