@@ -12,7 +12,7 @@ const Clothes = () => {
         <div className="clothes">
           <div className="block">
             <img
-              width={88}
+              width={85}
               height={110}
               src="https://wosk1147.ru/pictures/product/middle/38267_middle.png"
               alt="clothes"
@@ -22,7 +22,7 @@ const Clothes = () => {
           </div>
           <div className="block">
             <img
-              width={88}
+              width={85}
               height={110}
               src="https://wosk1147.ru/pictures/product/big/30396_big.JPG"
               alt="clothes1"
@@ -32,7 +32,7 @@ const Clothes = () => {
           </div>{" "}
           <div className="block">
             <img
-              width={88}
+              width={85}
               height={110}
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvY9fZd8vgE8wIWHiN01qfWbc8GruAe5jakw&s"
               alt="clothes2"

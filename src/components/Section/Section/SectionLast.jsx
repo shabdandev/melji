@@ -67,7 +67,7 @@ const SectionLast = () => {
             >
               <a
                 style={{ color: "black", letterSpacing: "2px" }}
-                href="https://www.instagram.com/cross01kg/"
+                href="https://www.instagram.com/shveinyi_kg/"
               >
                 INSTAGRAM
               </a>
