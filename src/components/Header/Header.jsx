@@ -101,7 +101,7 @@ function Header(props) {
                 color: "#fff",
                 width: "50px",
                 height: "50px",
-                marginLeft: "340px",
+                marginLeft: "325px",
               }}
             >
               <MenuIcon sx={{ fontSize: "32px" }} />
