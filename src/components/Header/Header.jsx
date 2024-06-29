@@ -10,11 +10,9 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { NavLink } from "react-router-dom";
 import lego from "../../components/image/headerlogo.jpg";
-import logo from "../../components/image/header.jpg";
 
 const drawerWidth = 240;
 
@@ -63,6 +61,7 @@ function Header(props) {
     <>
       <Box
         sx={{
+          textAlign: "center",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -102,6 +101,7 @@ function Header(props) {
                 color: "#fff",
                 width: "50px",
                 height: "50px",
+                marginLeft: "340px",
               }}
             >
               <MenuIcon sx={{ fontSize: "32px" }} />

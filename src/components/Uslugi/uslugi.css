@@ -34,7 +34,9 @@
   width: 255px;
   height: 170px;
   border-radius: 20px;
-  background: rgba(255, 166, 0, 0.71);
+  background: rgba(235, 201, 138, 0.708);
+  /* background-image: url("https://kgtex.ru/wp-content/uploads/2023/01/2-1.png");
+  object-fit: cover; */
 }
 
 .cards {

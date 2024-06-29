@@ -10,7 +10,7 @@ const SectionLast = () => {
       <div className="sectionLast">
         <div className="text22">
           <h2>Остались вопросы?</h2>
-          <h4>напишите нашему менеджеру</h4>
+          <h4>напишите нам в месенджерах</h4>
         </div>
         <Box
           sx={{
@@ -22,18 +22,18 @@ const SectionLast = () => {
           }}
         >
           <Button
+            className="tele"
             sx={{
               width: "180px",
               height: "40px",
               letterSpacing: "2px",
               fontWeight: "bold",
             }}
-            variant="contained"
-            color="success"
+            variant="outlined"
             endIcon={<TelegramIcon />}
           >
             <a
-              style={{ color: "white", letterSpacing: "2px" }}
+              style={{ color: "black", letterSpacing: "2px" }}
               href="https://t.me/+996999317517"
             >
               TELEGRAM

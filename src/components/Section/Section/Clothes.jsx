@@ -12,8 +12,8 @@ const Clothes = () => {
         <div className="clothes">
           <div className="block">
             <img
-              width={125}
-              height={135}
+              width={100}
+              height={115}
               src="https://wosk1147.ru/pictures/product/middle/38267_middle.png"
               alt="clothes"
             />
@@ -22,8 +22,8 @@ const Clothes = () => {
           </div>
           <div className="block">
             <img
-              width={125}
-              height={135}
+              width={100}
+              height={115}
               src="https://wosk1147.ru/pictures/product/big/30396_big.JPG"
               alt="clothes1"
             />
@@ -32,15 +32,15 @@ const Clothes = () => {
           </div>{" "}
           <div className="block">
             <img
-              width={125}
-              height={135}
+              width={100}
+              height={115}
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvY9fZd8vgE8wIWHiN01qfWbc8GruAe5jakw&s"
               alt="clothes2"
             />
             <h6>Жилетка классическая</h6>
             <h6>от 750 сом</h6>
           </div>
-          <div className="block">
+          {/* <div className="block">
             <img
               width={125}
               height={135}
@@ -49,7 +49,7 @@ const Clothes = () => {
             />
             <h6>Рубашка классическая</h6>
             <h6>от 685 сом</h6>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

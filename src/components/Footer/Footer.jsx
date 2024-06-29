@@ -9,10 +9,6 @@ const Footer = () => {
     <div className="container">
       <div className="footer">
         <div className="textt">
-          <h3>
-            Наши менеджеры всегда на связи с Заказчиками во всех этапах
-            сотрудничества с нами.
-          </h3>
           <div className="tag">
             <div className="btnn">
               <button>
