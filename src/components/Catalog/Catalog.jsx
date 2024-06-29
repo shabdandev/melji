@@ -31,10 +31,7 @@ const Catalog = () => {
     {
       imgPath: "https://www.stan.su/upload/iblock/045/17_20-_1_.png",
     },
-    // {
-    //   imgPath:
-    //     "https://i.pinimg.com/564x/e0/35/a9/e035a957ca0be88020f1ac43fdac2515.jpg",
-    // },
+
     {
       imgPath:
         "https://giftprime.ru/wp-content/uploads/2023/06/f8499982c409e4371e12d2021747de9d.png",
@@ -124,17 +121,6 @@ const Catalog = () => {
   return (
     <div className="container">
       <div className="catal">
-        <h3>ШВЕЙНЫЙ ДИЗАЙН</h3>
-      </div>
-      <div className="img1">
-        <img
-          width={360}
-          height={150}
-          src="https://kartinki.pics/uploads/posts/2021-07/1626298108_44-kartinkin-com-p-shveinii-fon-krasivo-49.jpg"
-          alt="img1"
-        />
-      </div>
-      <div className="texp_p">
         <h1>КАТАЛОГ</h1>
       </div>
       <div className="h1">
@@ -210,6 +196,10 @@ const Catalog = () => {
             ))}
           </Slider>
         </div>
+      </div>
+      <div className="text22">
+        <h2>Остались вопросы?</h2>
+        <h4>напишите нам в месенджерах</h4>
       </div>
     </div>
   );

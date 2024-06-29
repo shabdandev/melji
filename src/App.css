@@ -60,11 +60,11 @@ button {
   flex-direction: column;
   gap: 8px;
   h2 {
-    letter-spacing: 1px;
+    letter-spacing: 2px;
   }
   h4 {
     font-weight: 400;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     margin-bottom: 15px;
   }
 }

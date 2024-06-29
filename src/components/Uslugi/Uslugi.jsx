@@ -1,6 +1,11 @@
 import React from "react";
 import "./uslugi.css";
 import { Card, CardContent, CardMedia, Typography } from "@mui/material";
+import shel from "../../components/image/shelko.jpg";
+import marki from "../../components/image/marki.jpg";
+import birki from "../../components/image/birki.jpg";
+import eti from "../../components/image/eti.jpeg";
+import kon from "../../components/image/kon.jpeg";
 
 const Uslugi = () => {
   return (
@@ -8,17 +13,6 @@ const Uslugi = () => {
       <div className="container">
         <div className="uslugi">
           <div className="texttt">
-            <h3>ШВЕЙНЫЙ ДИЗАЙН</h3>
-          </div>
-          <div className="img1">
-            <img
-              width={360}
-              height={150}
-              src="https://kartinki.pics/uploads/posts/2021-07/1626298108_44-kartinkin-com-p-shveinii-fon-krasivo-49.jpg"
-              alt="img1"
-            />
-          </div>
-          <div className="texp">
             <h1>НАШИ УСЛУГИ</h1>
           </div>
           <div className="cards">
@@ -78,8 +72,8 @@ const Uslugi = () => {
                   Отправка образца
                 </Typography>
                 <Typography variant="body2" sx={{ color: "black" }}>
-                  Отправляем пробный образец через авиа карго, на ваше
-                  усмотрение.
+                  Отправляем пробный образец через авиа карго, сдэк и тд, на
+                  ваше усмотрение.
                 </Typography>
               </CardContent>
             </div>
@@ -109,7 +103,7 @@ const Uslugi = () => {
                   Пошив партии
                 </Typography>
                 <Typography variant="body2" sx={{ color: "black" }}>
-                  запуск производства под контролем наших технологов.
+                  Запуск производства под контролем наших технологов.
                 </Typography>
               </CardContent>
             </div>
@@ -156,7 +150,7 @@ const Uslugi = () => {
                   component="img"
                   width="300px"
                   height="146px"
-                  image="https://zsa-print.ru/uploads/posts/2013-11/shelkografija_advantage-1.jpg"
+                  image={shel}
                   alt="green iguana"
                 />
                 <CardContent>
@@ -275,13 +269,18 @@ const Uslugi = () => {
             </div>
             <div className="cardss">
               <Card
-                sx={{ width: "340px", height: "350px", borderRadius: "12px" }}
+                sx={{
+                  width: "340px",
+                  height: "350px",
+                  borderRadius: "12px",
+                  objectFit: "cover",
+                }}
               >
                 <CardMedia
                   component="img"
                   width="300px"
                   height="146px"
-                  image="https://biznesr.ru/wp-content/uploads/2020/03/2020-02-13-17-21-31-scaled-e1583872857209.jpeg"
+                  image={marki}
                   alt="green iguana"
                 />
                 <CardContent>
@@ -305,7 +304,7 @@ const Uslugi = () => {
                   component="img"
                   width="300px"
                   height="146px"
-                  image="https://images.prom.ua/1698498101_w600_h600_1698498101.jpg"
+                  image={birki}
                   alt="green iguana"
                 />
                 <CardContent>
@@ -330,7 +329,7 @@ const Uslugi = () => {
                   component="img"
                   width="300px"
                   height="146px"
-                  image="https://price-etiketka.ru/img/birka_kartonay5.jpg"
+                  image={eti}
                   alt="green iguana"
                 />
                 <CardContent>
@@ -349,13 +348,18 @@ const Uslugi = () => {
             </div>
             <div className="cardss">
               <Card
-                sx={{ width: "340px", height: "350px", borderRadius: "12px" }}
+                sx={{
+                  width: "340px",
+                  height: "350px",
+                  borderRadius: "12px",
+                  objectFit: "cover",
+                }}
               >
                 <CardMedia
                   component="img"
                   width="300px"
                   height="146px"
-                  image="https://kartinki.pics/uploads/posts/2022-03/thumbs/1647998867_19-kartinkin-net-p-dizainer-odezhdi-kartinki-21.jpg"
+                  image={kon}
                   alt="green iguana"
                 />
                 <CardContent>
@@ -375,6 +379,10 @@ const Uslugi = () => {
               </Card>
             </div>
           </div>
+        </div>
+        <div className="text22">
+          <h2>Остались вопросы?</h2>
+          <h4>напишите нам в месенджерах</h4>
         </div>
       </div>
     </>

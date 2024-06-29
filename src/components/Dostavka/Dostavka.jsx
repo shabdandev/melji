@@ -14,17 +14,6 @@ export default function Dostavka() {
     <div className="container">
       <div className="dostav">
         <div className="dos">
-          <h3>ШВЕЙНЫЙ ДИЗАЙН</h3>
-        </div>
-        <div className="img1">
-          <img
-            width={360}
-            height={150}
-            src="https://kartinki.pics/uploads/posts/2021-07/1626298108_44-kartinkin-com-p-shveinii-fon-krasivo-49.jpg"
-            alt="img1"
-          />
-        </div>
-        <div className="texpp">
           <h1>ОПЛАТА И ДОСТАВКА</h1>
         </div>
         <div className="text_p">
@@ -44,6 +33,9 @@ export default function Dostavka() {
                 <h3>
                   500 ЕД <br />
                   ‌ПИДЖАКИ, БРЮКИ, ПЛАТЬЯ, РУБАШКИ <br />
+                </h3>
+                <h3 style={{ paddingTop: "20px" }}>
+                  {" "}
                   1000 ЕД <br />
                   ‌ФУТБОЛКИ, ЛОНГСЛИВЫ, ТОПЫ
                 </h3>
@@ -77,18 +69,20 @@ export default function Dostavka() {
             <Typography>
               <div className="acc">
                 <h3>
-                  Конечная цена изделия будет известна после пошива образца. Мы
-                  сможем посчитать расход ткани и фурнитуры, а также просчитать
-                  количество операций по пошиву изделия! <br />
-                  <p className="span">
+                  Конечная цена изделия будет известна после пошива образца.{" "}
+                  <p style={{ padding: "20px 0" }}>
+                    Мы сможем посчитать расход <br /> ткани и фурнитуры, а также
+                    просчитать количество <br /> операций по пошиву изделия!
+                  </p>
+                  <p>
                     Разработка: <br />
                     -Изготовление лекал <br /> -Пошив образца <br /> -Ткань +
                     фурнитура
                     <br /> -Конструирование изделия (доработка)
                   </p>
-                  <p className="span"> 5000₽ </p> Далее, градация каждого
-                  размера от 1000₽ до 2500₽ (в зависимости от модели){" "}
-                  <p className="span">
+                  <p style={{ padding: "20px 0" }}> 5000₽ </p> Далее, градация
+                  каждого размера от 1000₽ до 2500₽ (в зависимости от модели){" "}
+                  <p style={{ paddingTop: "20px" }}>
                     Оплату возможно произвести на банковскую карту
                   </p>
                 </h3>
@@ -102,17 +96,20 @@ export default function Dostavka() {
             aria-controls="panel2-content"
             id="panel2-header"
           >
-            <Typography>КАК МНЕ УЗНАТ СТОИМОСТЬ ПОШИВА</Typography>
+            <Typography>
+              КАК МНЕ УЗНАТ СТОИМОСТЬ <br /> ПОШИВА ?
+            </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
               <div className="acc">
                 <h3>
-                  {" "}
                   Для уточнения стоимости конечной продукции, вам необходимо
                   отправить несколько качественных фотографий желаемой модели и
-                  количество для первой партии. Далее наши менеджеры смогут вам
-                  сделать расчёт.
+                  количество для первой партии.{" "}
+                  <p style={{ paddingTop: "20px" }}>
+                    Далее наши менеджеры смогут вам сделать расчёт.
+                  </p>
                 </h3>
               </div>
             </Typography>
@@ -124,15 +121,17 @@ export default function Dostavka() {
             aria-controls="panel2-content"
             id="panel2-header"
           >
-            <Typography>СПОСОБЫ И УСЛОВИЯ ОПЛАТЫ</Typography>
+            <Typography>СПОСОБЫ И УСЛОВИЯ ОПЛАТЫ ?</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
               <div className="acc">
                 <h3>
-                  Существует множество вариантов оплаты со стран СНГ. При
-                  оформлении заказа, мы обязательно проинструктируем вас какой
-                  вариант для вас оптимальный.
+                  Существует множество вариантов оплаты со стран СНГ.
+                  <p style={{ paddingTop: "15px" }}>
+                    При оформлении заказа, мы обязательно проинструктируем вас
+                    какой вариант для вас оптимальный.
+                  </p>
                 </h3>
               </div>
             </Typography>
@@ -152,8 +151,11 @@ export default function Dostavka() {
                 <h3>
                   - Изготовление лекала и пошив образца занимает в среднем около
                   3-4 рабочих дней;
-                  <br />- Срок пошива партии продукции занимает в среднем от 3
-                  до 7 дней (при партии 1000 ед.)
+                  <br />
+                  <p style={{ paddingTop: "15px" }}>
+                    - Срок пошива партии продукции занимает в среднем от 3 до 7
+                    дней (при партии 1000 ед.)
+                  </p>
                 </h3>
               </div>
             </Typography>
@@ -172,59 +174,21 @@ export default function Dostavka() {
               <div className="acc">
                 <h3>
                   - Авто доставка (карго), средний срок 5-10 дней с момента
-                  сдачи продукции в транспортную компанию. Стоимость доставки
-                  40-50 руб за 1 кг.
-                  <br />- Авиа доставка, cрок доставки 1-2 дня. Стоимость
-                  доставки 200 руб за 1 кг.
+                  сдачи продукции в транспортную компанию.
+                  <p style={{ padding: "15px 0" }}>
+                    Стоимость доставки 40-50 руб за <br /> 1 кг.
+                  </p>
+                  - Авиа доставка, cрок доставки 1-2 дня. Стоимость доставки 200
+                  руб за 1 кг.
                 </h3>
               </div>
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <div className="text222">
-          <h2>Остались вопросы?</h2>
-          <h4>напишите нашему менеджеру</h4>
-        </div>
-        <div className="btn">
-          <Button
-            sx={{
-              width: "180px",
-              height: "40px",
-            }}
-            variant="contained"
-            color="success"
-            endIcon={<WhatsAppIcon />}
-          >
-            <a
-              style={{
-                color: "white",
-                letterSpacing: "2px",
-                fontWeight: "bold",
-              }}
-              href="https://wa.me/+996708171232"
-            >
-              WHATSAPP
-            </a>
-          </Button>
-          <Button
-            sx={{
-              width: "180px",
-              height: "40px",
-              letterSpacing: "2px",
-              fontWeight: "bold",
-            }}
-            variant="contained"
-            color="success"
-            endIcon={<TelegramIcon />}
-          >
-            <a
-              style={{ color: "white", letterSpacing: "2px" }}
-              href="https://t.me/+996708171232"
-            >
-              TELEGRAM
-            </a>
-          </Button>
-        </div>
+      </div>
+      <div className="text22">
+        <h2>Остались вопросы?</h2>
+        <h4>напишите нам в месенджерах</h4>
       </div>
     </div>
   );
