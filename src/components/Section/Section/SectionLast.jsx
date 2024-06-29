@@ -30,14 +30,27 @@ const SectionLast = () => {
               fontWeight: "bold",
             }}
             variant="outlined"
-            endIcon={<TelegramIcon />}
           >
-            <a
-              style={{ color: "black", letterSpacing: "2px" }}
-              href="https://t.me/+996999317517"
+            <div
+              className=""
+              style={{ display: "flex", alignItems: "center", gap: "10px" }}
             >
-              TELEGRAM
-            </a>
+              <a
+                style={{ color: "black", letterSpacing: "2px" }}
+                href="https://t.me/+996999317517"
+              >
+                TELEGRAM
+              </a>
+              <button
+                style={{
+                  color: "blue",
+                  background: "none",
+                  fontSize: "8px",
+                }}
+              >
+                <TelegramIcon />
+              </button>
+            </div>
           </Button>
           <Button
             sx={{
@@ -46,36 +59,56 @@ const SectionLast = () => {
               letterSpacing: "2px",
               fontWeight: "bold",
             }}
-            variant="contained"
-            color="success"
-            endIcon={<InstagramIcon />}
+            variant="outlined"
           >
-            <a
-              style={{ color: "white", letterSpacing: "2px" }}
-              href="https://www.instagram.com/cross01kg/"
+            <div
+              className=""
+              style={{ display: "flex", alignItems: "center", gap: "10px" }}
             >
-              INSTAGRAM
-            </a>
+              <a
+                style={{ color: "black", letterSpacing: "2px" }}
+                href="https://www.instagram.com/cross01kg/"
+              >
+                INSTAGRAM
+              </a>
+              <button
+                style={{
+                  color: "rgba(211, 6, 115, 0.966)",
+                  background: "none",
+                  fontSize: "8px",
+                }}
+              >
+                <InstagramIcon />
+              </button>
+            </div>
           </Button>
           <Button
             sx={{
               width: "180px",
               height: "40px",
             }}
-            variant="contained"
-            color="success"
-            endIcon={<WhatsAppIcon />}
+            variant="outlined"
           >
-            <a
-              style={{
-                color: "white",
-                letterSpacing: "2px",
-                fontWeight: "bold",
-              }}
-              href="https://wa.me/+996999317517"
+            <div
+              className=""
+              style={{ display: "flex", alignItems: "center", gap: "10px" }}
             >
-              WHATSAPP
-            </a>
+              <a
+                style={{
+                  color: "black",
+                  letterSpacing: "2px",
+                  fontWeight: "bold",
+                }}
+                href="https://wa.me/+996999317517"
+              >
+                WHATSAPP
+              </a>
+              <button
+                style={{ color: "green", background: "none", fontSize: "8px" }}
+              >
+                <WhatsAppIcon />
+              </button>
+            </div>
           </Button>
         </Box>
       </div>

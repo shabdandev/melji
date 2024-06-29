@@ -26,34 +26,13 @@
   }
 }
 
-.addres {
-  h3 {
-    letter-spacing: 1px;
-    font-size: 24px;
-  }
-  a {
-    color: black;
-    font-size: 18px;
-    padding-bottom: 15px;
-  }
-}
-
 .wh {
-  padding-top: 15px;
-}
-
-.addres {
+  padding-bottom: 25px;
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: center;
-  flex-direction: column;
-  h3 {
-    font-weight: bold;
-    font-size: 27px;
-  }
-  a {
-    font-size: 22px;
-    font-weight: 100;
+  button {
+    width: 260px;
   }
 }
 

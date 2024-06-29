@@ -27,34 +27,31 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="wh">
-            <Button
-              sx={{
-                width: "180px",
-                height: "40px",
-                borderRadius: "8px",
-              }}
-              variant="contained"
-              color="success"
-              endIcon={<WhatsAppIcon />}
-            >
-              <a
-                style={{
-                  color: "white",
-                  letterSpacing: "2px",
-                  fontWeight: "bold",
-                }}
-                href="https://wa.me/+996999317517"
-              >
-                WHATSAPP
-              </a>
-            </Button>
-          </div>
         </div>
       </div>
-      <div className="addres">
-        <h3>Наш адрес:</h3>
-        <a href="">г.Бишкек</a>
+      <div className="wh">
+        <Button
+          sx={{
+            width: "180px",
+            height: "40px",
+            borderRadius: "8px",
+          }}
+          variant="contained"
+          color="success"
+          endIcon={<WhatsAppIcon />}
+        >
+          <a
+            style={{
+              color: "white",
+              fontSize: "14px",
+              letterSpacing: "1px",
+              fontWeight: "bold",
+            }}
+            href="https://wa.me/+996999317517"
+          >
+            Напишите в WhatsApp
+          </a>
+        </Button>
       </div>
     </div>
   );

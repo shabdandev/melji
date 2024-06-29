@@ -75,7 +75,7 @@ const Uslugi = () => {
                   4:
                 </Typography>
                 <Typography variant="h5" component="div">
-                  Отправка образка
+                  Отправка образца
                 </Typography>
                 <Typography variant="body2" sx={{ color: "black" }}>
                   Отправляем пробный образец через авиа карго, на ваше
