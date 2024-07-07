@@ -32,7 +32,7 @@ const Clothesed = () => {
           <img
             width={125}
             height={120}
-            src="https://images.prom.ua/4728705316_w640_h640_longsliv-takticheskij-universalnyj.jpg"
+            src="https://melji.kg/images/slider5/IMG_2233.JPG"
             alt="cl2"
           />
           <h6>Лонгслив</h6>
@@ -42,7 +42,7 @@ const Clothesed = () => {
           <img
             width={125}
             height={120}
-            src="https://arctic-zone.ru/upload/iblock/123/ps2clrzwn7lzul8frfa3dhcrucer72ix/8fae002c-8829-11ed-98bc-3c7c3f22f2c0_8a3282ae-882c-11ed-98bc-3c7c3f22f2c0.jpg"
+            src="https://melji.kg/images/banner2.png"
             alt="cl3"
           />
           <h6>Брюки</h6>
