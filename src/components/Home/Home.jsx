@@ -23,7 +23,15 @@ const Home = () => {
   const images = [
     {
       imgPath:
-        "https://4kraski.ru/assets/images/products/29966/8fed8f14240caec958cd8801c7ba7d0a.png",
+        "https://unifashion.ru/wp-content/uploads/2019/04/seraya-transformed-300x300.png",
+    },
+    {
+      imgPath:
+        "https://giftprime.ru/wp-content/uploads/2023/06/f8499982c409e4371e12d2021747de9d.png",
+    },
+    {
+      imgPath:
+        "https://images.prom.ua/4976662917_w640_h640_svitshot-zhenskij-bono.jpg",
     },
     {
       imgPath:
@@ -31,26 +39,11 @@ const Home = () => {
     },
     {
       imgPath:
-        "https://www.stan.su/upload/resize_cache/iblock/c98/700_700_140cd750bba9870f18aada2478b24840a/c98eb419bd393b8aa01062896028babc.png",
-    },
-    {
-      imgPath: "https://www.stan.su/upload/iblock/045/17_20-_1_.png",
-    },
-    {
-      imgPath:
-        "https://www.silvermedia.ru/upload/iblock/d33/c0e021r9wpesgi9rdnzbb4ongsgttnik/b661b24b_052c_11ee_93d4_a8a159b707f3_b661b24c_052c_11ee_93d4_a8a159b707f3.resize2.png",
-    },
-    {
-      imgPath:
-        "https://giftprime.ru/wp-content/uploads/2023/06/f8499982c409e4371e12d2021747de9d.png",
+        "https://unifashion.ru/wp-content/uploads/2022/08/9337k-transformed.png",
     },
   ];
 
   const images1 = [
-    {
-      imgPath:
-        "https://tex-print.ru/image/catalog/products/fut/wpremium/2-500x500.png",
-    },
     {
       imgPath:
         "https://www.stan.su/upload/iblock/313/31347f3a2c6459719dc8c5ed78279f5e.png",
@@ -74,14 +67,7 @@ const Home = () => {
       imgPath:
         "https://mynewshirt.ru/image/cache/products/WCPWLS29-A01/WCPWLS29-A01-01-big-400x400.jpg",
     },
-    {
-      imgPath:
-        "https://i.pinimg.com/736x/94/1f/46/941f4648bbac94b837aba7232d5ec4d2.jpg",
-    },
-    {
-      imgPath:
-        "https://images.prom.ua/4911811552_w640_h640_zhiletka-muzhskaya-klassicheskaya.jpg",
-    },
+
     {
       imgPath:
         "https://ae04.alicdn.com/kf/Sda969ff56bf748288b3c6109841d01a44.jpg_480x480.jpg",
@@ -114,11 +100,11 @@ const Home = () => {
     },
     {
       imgPath:
-        "https://fridaywear.ru/upload/resize_cache/webp/iblock/83c/wh1mnhefootodbxj1x74lb8tjchnm2xd.webp",
+        "https://fridaywear.ru/upload/resize_cache/webp/iblock/6e6/lam8wmjy0xpmbc6joo4iqong0o4c8ukl.webp",
     },
     {
       imgPath:
-        "https://www.stimma.com.ua/upload/resize_cache/iblock/b3a/530_780_1/crvw2pjv01q8sanrft76h7nf3lazfnpt.png",
+        "https://fridaywear.ru/upload/resize_cache/webp/iblock/83c/wh1mnhefootodbxj1x74lb8tjchnm2xd.webp",
     },
     {
       imgPath:
