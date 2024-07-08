@@ -66,11 +66,6 @@ const Home = () => {
       imgPath:
         "https://i.pinimg.com/564x/22/9b/cb/229bcb77b0129faa7f4a278d478aa30a.jpg",
     },
-
-    {
-      imgPath:
-        "https://i.pinimg.com/564x/aa/fd/b2/aafdb2dc30e3205aa40a1235cbe93916.jpg",
-    },
     {
       imgPath:
         "https://i.pinimg.com/564x/5c/17/50/5c17503baa29c45216eb6591d94672f0.jpg",
