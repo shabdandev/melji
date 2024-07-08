@@ -12,7 +12,7 @@ const Clothesed = () => {
           <img
             width={125}
             height={130}
-            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D0%BF%D0%BB%D0%B0%D1%82%D1%8C%D0%B5-eyelet-trim--FRDR23G72900_PM2_Front%20view.jpg"
+            src="https://i.pinimg.com/564x/22/9b/cb/229bcb77b0129faa7f4a278d478aa30a.jpg"
             alt="cl"
           />
           <h6>Платья</h6>
@@ -21,8 +21,8 @@ const Clothesed = () => {
         <div className="block">
           <img
             width={125}
-            height={120}
-            src="https://www.timeout.ru/wp-content/uploads/2021/09/hmgoepprod.png"
+            height={150}
+            src="https://i.pinimg.com/564x/25/0b/05/250b057ed7dbfa862fd7ed935dc679a0.jpg"
             alt="cl1"
           />
           <h6>Рубашки</h6>
@@ -42,7 +42,7 @@ const Clothesed = () => {
           <img
             width={125}
             height={120}
-            src="https://melji.kg/images/banner2.png"
+            src="https://main-cdn.sbermegamarket.ru/big2/hlr-system/-93/808/960/115/234/8/100030236082b1.jpg"
             alt="cl3"
           />
           <h6>Брюки</h6>
@@ -52,7 +52,7 @@ const Clothesed = () => {
           <img
             width={125}
             height={120}
-            src="https://britanshop.ru/upload/iblock/5e3/v75r7fqajkkkl9udeddgaja8s6fb8jw1.png"
+            src="https://i.pinimg.com/564x/e5/e1/1a/e5e11a472bd8d86135a5d94a8f6d866e.jpg"
             alt="cl4"
           />
           <h6>Худи</h6>
@@ -62,8 +62,7 @@ const Clothesed = () => {
           <img
             width={125}
             height={120}
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz3zidwHM2DUOUHRSqx5tGXH0nkO805zq85RPKuauAfIUMyqy-dG3HveN8jKxBWK-WMG8&usqp=CAU"
-            alt="cl5"
+            src="https://i.pinimg.com/564x/a4/48/f5/a448f5a401031dd6a15edf41a8c751f7.jpg"
           />
           <h6>Спортивные двойки</h6>
           <h6>от 1400 сом</h6>

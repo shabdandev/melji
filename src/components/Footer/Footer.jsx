@@ -14,8 +14,8 @@ const Footer = () => {
               <button>
                 <AddIcCallIcon />
               </button>
-              <a style={{ color: "black" }} href="tel:+996500661260">
-                0500661260
+              <a style={{ color: "black" }} href="tel:+996999417617">
+                0999417617
               </a>
             </div>
             <div className="btnn">

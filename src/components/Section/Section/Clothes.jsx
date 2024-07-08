@@ -14,7 +14,7 @@ const Clothes = () => {
             <img
               width={80}
               height={100}
-              src="https://wosk1147.ru/pictures/product/middle/38267_middle.png"
+              src="https://png.pngtree.com/png-vector/20240115/ourmid/pngtree-beige-woman-blazer-png-image_11438644.png"
               alt="clothes"
             />
             <h6>Пиджак удлиненный</h6>
@@ -34,22 +34,12 @@ const Clothes = () => {
             <img
               width={80}
               height={100}
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvY9fZd8vgE8wIWHiN01qfWbc8GruAe5jakw&s"
+              src="https://cdn1.gum.ru/upload/iblock/cce/d5125808cb3bcc65cfb9adf44569768d.jpg"
               alt="clothes2"
             />
             <h6>Жилетка классическая</h6>
             <h6>от 750 сом</h6>
           </div>
-          {/* <div className="block">
-            <img
-              width={125}
-              height={135}
-              src="https://image.made-in-china.com/202f0j00KIrYVLZEYvkP/New-Mens-Military-Shirt-Men-Long-Sleeve-Cargo-Shirts-100-Cotton-Casual-Solid-Shirt-Male-Pocket-Work-Shirt.webp"
-              alt="clothes2"
-            />
-            <h6>Рубашка классическая</h6>
-            <h6>от 685 сом</h6>
-          </div> */}
         </div>
       </div>
     </>
