@@ -13,8 +13,8 @@ const Clothes = () => {
           <div className="block">
             <img
               width={80}
-              height={100}
-              src="https://png.pngtree.com/png-vector/20240115/ourmid/pngtree-beige-woman-blazer-png-image_11438644.png"
+              height={95}
+              src="https://i.pinimg.com/564x/e7/56/20/e75620111389779ca76fa2aadde9fb85.jpg"
               alt="clothes"
             />
             <h6>Пиджак удлиненный</h6>
@@ -22,9 +22,9 @@ const Clothes = () => {
           </div>
           <div className="block">
             <img
-              width={80}
-              height={100}
-              src="https://wosk1147.ru/pictures/product/big/30396_big.JPG"
+              width={68}
+              height={91}
+              src="https://i.pinimg.com/736x/2e/b3/54/2eb354af6099f70433919d398093a392.jpg"
               alt="clothes1"
             />
             <h6>Пиджак короткий</h6>
@@ -33,7 +33,7 @@ const Clothes = () => {
           <div className="block">
             <img
               width={80}
-              height={100}
+              height={99}
               src="https://cdn1.gum.ru/upload/iblock/cce/d5125808cb3bcc65cfb9adf44569768d.jpg"
               alt="clothes2"
             />

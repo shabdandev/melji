@@ -22,7 +22,7 @@ const Clothesed = () => {
           <img
             width={125}
             height={150}
-            src="https://i.pinimg.com/564x/25/0b/05/250b057ed7dbfa862fd7ed935dc679a0.jpg"
+            src="https://i.pinimg.com/564x/93/59/87/935987ea31a21defdee839ca24f36083.jpg"
             alt="cl1"
           />
           <h6>Рубашки</h6>
